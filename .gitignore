@@ -1,0 +1,5 @@
+/.idea/
+/pkg/
+*.gem
+.rspec
+shouldiupdate.iml

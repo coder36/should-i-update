@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require 'shouldiupdate'
+
+exit should_i_update ? 1 : 0
+
