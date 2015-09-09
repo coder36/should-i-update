@@ -6,8 +6,21 @@ PATH
 GEM
   remote: https://rubygems.org/
   specs:
+    capybara (2.4.4)
+      mime-types (>= 1.16)
+      nokogiri (>= 1.3.3)
+      rack (>= 1.0.0)
+      rack-test (>= 0.5.4)
+      xpath (~> 2.0)
     diff-lcs (1.2.5)
     hitimes (1.2.2)
+    mime-types (2.6.1)
+    mini_portile (0.6.2)
+    nokogiri (1.6.6.2)
+      mini_portile (~> 0.6.0)
+    rack (1.6.4)
+    rack-test (0.6.3)
+      rack (>= 1.0)
     rake (10.4.2)
     rspec (3.3.0)
       rspec-core (~> 3.3.0)
@@ -24,16 +37,19 @@ GEM
     rspec-support (3.3.0)
     timers (4.0.1)
       hitimes
+    xpath (2.0.0)
+      nokogiri (~> 1.3)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   bundler (~> 1.10)
+  capybara (= 2.4.4)
   rake (~> 10.0)
   rspec
   should-i-update!
   timers (= 4.0.1)
 
 BUNDLED WITH
-   1.10.5
+   1.10.4

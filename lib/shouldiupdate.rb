@@ -24,7 +24,7 @@ def filter_outdated_gems
 end
 
 def should_i_update
-  gems = filter_outdated_gems { |newest, installed| installed.bump < newest }
+  gems = filter_outdated_gems { |newest, installed| installed.bump <= newest }
 
   if gems.empty?
     puts green "Your Gemfile looks good :)"
