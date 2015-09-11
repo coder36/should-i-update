@@ -35,3 +35,6 @@ Or install it yourself as:
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/coder36/should-i-update.
 
+## License
+
+Licensed under the [MIT license](https://raw.githubusercontent.com/coder36/should-i-update/master/LICENSE).
