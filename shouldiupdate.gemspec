@@ -12,6 +12,7 @@ Gem::Specification.new do |spec|
   spec.summary       = %q{Should I update my gem's ?}
   spec.description   = %q{should-i-update takes a friendly look your Gemfile and reports any out of date gems}
   spec.homepage      = "https://github.com/coder36/should-i-update"
+  spec.license       = %q{MIT}
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = "bin"
